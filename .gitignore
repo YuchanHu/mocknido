@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Runtime, release packages and local output
+/runtime/
+/RELEASE/
+/build/
+/dist/
+/cache/
+/deliverables/*
+!/deliverables/.gitkeep
+*.zip
+*.whl
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
